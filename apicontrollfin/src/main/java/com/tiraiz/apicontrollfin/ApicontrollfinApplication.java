@@ -1,13 +1,13 @@
-package br.com.tiraiz.controlefinanceiro;
+package com.tiraiz.apicontrollfin;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ControlefinanceiroApplication {
+public class ApicontrollfinApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ControlefinanceiroApplication.class, args);
+		SpringApplication.run(ApicontrollfinApplication.class, args);
 	}
 
 }

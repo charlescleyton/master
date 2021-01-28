@@ -1,10 +1,10 @@
-package br.com.tiraiz.controlefinanceiro;
+package com.tiraiz.apicontrollfin;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ControlefinanceiroApplicationTests {
+class ApicontrollfinApplicationTests {
 
 	@Test
 	void contextLoads() {
