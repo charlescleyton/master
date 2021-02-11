@@ -18,7 +18,7 @@ public class Usuario implements Serializable {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private int id;
+    private Long id;
 
     @NotNull
     private String name;
@@ -38,15 +38,17 @@ public class Usuario implements Serializable {
     @NotNull
     private String estate;
 
-    public int getId() {
-        return id;
-    }
+  
 
-    public void setId(int id) {
-        this.id = id;
-    }
+    public Long getId() {
+		return id;
+	}
 
-    public String getName() {
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public String getName() {
         return name;
     }
 
