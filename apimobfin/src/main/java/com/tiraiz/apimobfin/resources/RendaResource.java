@@ -28,8 +28,8 @@ public class RendaResource {
     }
 
     @GetMapping("/renda/{id}")
-    public Renda listaUsuarioUnico(@PathVariable(value = "id") long id_Renda) {
-        return rendaRepository.findByid(id_Renda);
+    public Renda listaUsuarioUnico(@PathVariable(value = "id") long id) {
+        return rendaRepository.findByid(id);
     }
 
     @PostMapping("/renda")
@@ -38,8 +38,8 @@ public class RendaResource {
     }
 
     @DeleteMapping("/renda/{id}")
-    public void deletaRenda(@PathVariable(value = "id") long id_Renda) {
-        rendaRepository.deleteById(id_Renda);
+    public void deletaRenda(@PathVariable(value = "id") long id) {
+        rendaRepository.deleteById(id);
     }
 
     @PutMapping("/renda")
