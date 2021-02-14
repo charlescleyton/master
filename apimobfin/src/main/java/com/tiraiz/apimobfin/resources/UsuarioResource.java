@@ -43,7 +43,7 @@ public class UsuarioResource {
 	}
 
 	@PutMapping("/usuario")
-	public Usuario atualizaProduto(@RequestBody Usuario usuario) {
+	public Usuario atualizaUsuario(@RequestBody Usuario usuario) {
 		return usuarioRepository.save(usuario);
 	}
 }
