@@ -38,17 +38,21 @@ public class Usuario implements Serializable {
     @NotNull
     private String estate;
 
-  
+    @NotNull
+    private int cep;
+
+    @NotNull
+    private int telefone;
 
     public Long getId() {
-		return id;
-	}
+        return id;
+    }
 
-	public void setId(Long id) {
-		this.id = id;
-	}
+    public void setId(Long id) {
+        this.id = id;
+    }
 
-	public String getName() {
+    public String getName() {
         return name;
     }
 
@@ -94,6 +98,22 @@ public class Usuario implements Serializable {
 
     public void setEstate(String estate) {
         this.estate = estate;
+    }
+
+    public int getCep() {
+        return cep;
+    }
+
+    public void setCep(int cep) {
+        this.cep = cep;
+    }
+
+    public int getTelefone() {
+        return telefone;
+    }
+
+    public void setTelefone(int telefone) {
+        this.telefone = telefone;
     }
 
 }
